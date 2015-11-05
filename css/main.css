@@ -1,0 +1,73 @@
+/* some basic styles for the whole website, including the grid */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.section {
+  clear: both;
+  padding: 0;
+  margin: 0; }
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1%; }
+
+.col:first-child {
+  margin-left: 0; }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1;
+  /* ie 6/7 */ }
+
+.span {
+  width: 6.866%; }
+
+.span2 {
+  width: 15.33%; }
+
+.span3 {
+  width: 23.8%; }
+
+.span4 {
+  width: 32.26%; }
+
+.span5 {
+  width: 40.73%; }
+
+.span6 {
+  width: 49.2%; }
+
+.span7 {
+  width: 57.66%; }
+
+.span8 {
+  width: 66.13%; }
+
+.span9 {
+  width: 74.6%; }
+
+.span10 {
+  width: 83.06%; }
+
+.span11 {
+  width: 91.53%; }
+
+.span12 {
+  width: 100%; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+/*# sourceMappingURL=main.css.map */
